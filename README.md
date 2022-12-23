@@ -1,4 +1,4 @@
-#blockchain
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -39,9 +39,6 @@
 
 In this tutorial, I will provide step-by-step guide to deploy Ethereum private blockchain. It will run four nodes (boot, minner, node1, node2) on same computer. I used Ubuntu 18.04.3 LTS but it can also run-on higher version of Ubuntu
 
-<p align="right">(<a href="#blockchain">back to top</a>)</p>
-
-
 
 ### Directory structure
 To deploy private network, you need to create following directory structure.
@@ -66,9 +63,6 @@ cd etherprivatentk
 ```
 /etherprivatentk$ mkdir node2
 ```
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Install ethereum geth
 ```
@@ -147,8 +141,6 @@ $ geth --datadir ./data account new
 Public address of the key:   0x3E8Be83e729282c25dDf95B715d97b7b07724e8e
 
 Path of the secret key file: data/keystore/UTC--2022-12-22T12-13-38.477210329Z--3e8be83e729282c25ddf95b715d97b7b07724e8e
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Create genesis block
 For creating genesis block, run following command. Please note when you execute this command, it will ask for various options in sequence and in each option, please provide recommended input.
@@ -233,9 +225,6 @@ Enter >/home/<host-name>/Desktop/etherprivatentk
 INFO [12-23|13:25:01.582] Saved native genesis chain spec          path=/home/<host-name>/Desktop/etherprivatentk/admin.json
 
 Note: Close terminal and you can find the admin.json (genesis) is in the =/home/<host-name>/Desktop/etherprivatentk/ folder. 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### Initialize Ethereum Nodes
  
@@ -352,7 +341,6 @@ INFO [12-23|13:51:08.742] Looking for peers                        peercount=2 t
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -362,5 +350,5 @@ Abdul Ghafoor Abbasi -aghafoor77@gmail.com
 
 Project Link: [https://github.com/aghafoor77/blockchain]( https://github.com/aghafoor77/blockchain)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
