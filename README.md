@@ -1,16 +1,8 @@
-# blockchain
-# selectivedisclouser
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
-  <h3 align="center">Selective Disclouser Demo</h3>
-
- 
+  <h3 align="center">Ethereun Private Network Deployment</h3>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -19,7 +11,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#directory-structure">Directory structure</a></li>
       </ul>
     </li>
     <li>
@@ -36,13 +28,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project demonstrates the concepts of selective disclosure which ware based on the verifiable credentials and verifiable presentation. This demonstration is implemented in Java and depends on some already developed libraries for web3, did, and cryptography.
+In this tutorial Ethereum private blockchain will be created. It will run four nodes (boot, minner, node1, node2) on same computer. I used Ubuntu 18.04.3 LTS but ican also run on higher version of Ubuntu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
+### Directory structure
 
 To build Selective Disclouser demo, following software should be installed.
 
