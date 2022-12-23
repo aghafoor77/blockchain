@@ -12,7 +12,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#directory-structure">Directory structure</a></li>
-         <li><a href="#install-ethereum-geth">Install ethereum geth</a></li>
+         <li><a href="#install-ethereum-geth">Install Ethereum geth</a></li>
       </ul>
     </li>
     <li>
@@ -36,14 +36,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this tutorial Ethereum private blockchain will be created. It will run four nodes (boot, minner, node1, node2) on same computer. I used Ubuntu 18.04.3 LTS but ican also run on higher version of Ubuntu
+In this tutorial, I will provide step-by-step guide to deploy Ethereum private blockchain. It will run four nodes (boot, minner, node1, node2) on same computer. I used Ubuntu 18.04.3 LTS but it can also run-on higher version of Ubuntu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Directory structure
-To deply private network, you need to create folloiwng directory structure.
+To deploy private network, you need to create following directory structure.
 * Create root directory 
 ```
 $mkdir etherprivatentk
@@ -99,7 +99,7 @@ $cd boot
 ### Create Node Accounts
 Create eth account for minner, node1, node2:
 * Create eth account for minner account
-Execute following commands and it will ask for password. Create minnerpass.txt file in the same fodler and paste password in that.
+Execute following commands and it will ask for password. Create minnerpass.txt file in the same folder and paste password in that.
 ```
 cd minner
 ```
@@ -107,7 +107,7 @@ cd minner
 /minner$ geth --datadir ./data account new
 ```
 
-After creation minner account, you need to save following data which is displayed on terminal.
+After creation minner account, you need to save following data, displayed on terminal.
 
 Public address of the key:   0x6F93Bb12D5Eec64edF36F081d6Ec5d6DD5ABe1a0
 
@@ -124,7 +124,7 @@ cd node1
 ```
 $ geth --datadir ./data account new
 ```
-It it will display folloiwng informaton on termal. please keep it save for future use.
+It will display following information on terminal. please keep it save for future use.
 
 Public address of the key:   0xCACD7e341bD0F629aC22D6Fb067aAd380000F8C8
 
@@ -152,7 +152,7 @@ Path of the secret key file: data/keystore/UTC--2022-12-22T12-13-38.477210329Z--
 ### Create genesis block
 For creating genesis block, run following command. Please note when you execute this command, it will ask for various options in sequence and in each option, please provide recommended input.
 
-Open a new Terminal and then execute folloiwng command 
+Open a new Terminal and then execute following command 
 
 ```
 $ puppet
@@ -359,7 +359,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Abdul Ghafoor Abbasi -aghafoor77@gmail.com
 
-Project Link: [https://github.com/aghafoor77/selectivedisclouser](https://github.com/aghafoor77/selectivedisclouser)
+Project Link: [https://github.com/aghafoor77/blockchain]( https://github.com/aghafoor77/blockchain)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
