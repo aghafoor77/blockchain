@@ -311,7 +311,7 @@ cd node1
 ```
 ```
 /node1$ geth --networkid 94321701 --datadir "./data" --bootnodes enode://eaedc775ab59e41657b78225cb26f3d6c7470ab1af63382c5c53e385aa5bb5531e3370748cb2afdc22e3538cc686a20ee5ce8ab2f816a917eb9ddc197161307b@127.0.0.1:0?discport=30301 --port 30305 --ipcdisable --syncmode full --rpc.allow-unprotected-txs --authrpc.port 8585 --allow-insecure-unlock --http --http.addr 0.0.0.0 --http.api personal,eth,net,web3 --http.port 8586 console
-
+```
 You can view minner terminal and it start showing following information 
   
 INFO [12-23|13:40:15.641] Looking for peers                        peercount=1 tried=0 static=0
