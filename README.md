@@ -148,7 +148,7 @@ For creating genesis block, run following command. Please note when you execute 
 Open a new Terminal and then execute following command 
 
 ```
-$ puppet
+$ puppeth
 ```
 
 Please specify a network name to administer (no spaces, hyphens or capital letters please)
